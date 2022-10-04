@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body{
+    width: 200%;
+    background-color:white;
+}
+form{
+    background-color: chartreuse;
+    position: absolute;
+    width: 600px;
+    height: 380px;
+    padding: 10px 5px 20px 5px;
+    margin: -10vh 850px;
+    border-radius: 5px;
+}
+input[type='text'],input[type='password']{
+    display: block;
+    background-color: beige;
+    margin: auto;
+    border: 5px solid cornsilk;
+    width: 200px;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: black;
+    font-size: 20px;
+}
+
+button{
+    border: none;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    width: 283px;
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0;
+}
+.f-pws{
+    display: block;
+    width: 200px;
+    margin: auto;
+    color: blue;
+    padding-left: 80px;
+    font-weight: 400;
+}
+.line{
+    border-top: 1px solid black;
+    opacity: 0.2;
+}
+.bnt2{
+    width: 180px;
+    font-size: 14px;
+    background-color:aqua;
+} 
+.sub-link h3{
+    width: 270px;
+    position: relative;
+    color: black;
+    padding: 130px 890px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.sub-link h3 a{
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+}
+.f-container{
+    width: 350px;
+    margin-left: 300px;
+    margin-top: 30vh;
+    /* font-family: 'segoe UI',Roboto,'san francisco';  */
+}
+.f-container img{
+    width: 250px;
+}
+p{
+    font-size: 40px;
+    font-weight: 600;
+    word-spacing: 3px;
+}
